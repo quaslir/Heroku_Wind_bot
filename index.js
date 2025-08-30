@@ -1,8 +1,8 @@
 ﻿const request= require('request');
 const TelegramBot = require('node-telegram-bot-api');
-const token = '863970647:AAHD6f8fKMXKJuPrjrxLie23xkNggq3HAUU';
+const token = '{WRITE_YOUR_TOKEN';
 const bot = new TelegramBot(token, {polling: true});
-const url = 'http://api.openweathermap.org/data/2.5/find?q=Kiev&type=like&APPID=bb7bb415a2bc3847616afb5a120f94a8';
+const url = '';
 
 
 bot.onText(/\/start/, (msg, match) => {
